@@ -1,0 +1,63 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My List</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body style="background-color: black">
+<nav style="background-color: #584B4F">
+    <div class="container nav-wrapper">
+        <a href="/" class="brand-logo">My List</a>
+        <ul id="nav-mobile" class="right">
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h1 style="text-align: center; color: #ffecb3"> What do you want to search?</h1>
+    <div class="row">
+        <div class="col s4">
+            <div class="center">
+                <i class="large material-icons " style="color: EE6E73">flash_on</i>
+                <p class="same">Fast web scrapper</p>
+                <i class="light center same">Scrap anything with a beautiful soup.</i>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="center">
+                <i class="large material-icons" style="color: orange">camera</i>
+                <p class="same">Filter your searches with us.</p>
+                <i class="light center same">We filter based on pricing</i>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="center">
+                <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
+                <p class="same">A much better front-end</p>
+                <i class="light center same">D'evil reins</i>
+            </div>
+        </div>
+    </div>
+
+    <form action="{% url 'new_search'%}" method="post">
+         {% csrf_token %}
+        <input type="text" name="search" placeholder="search" style="color: white">
+        <button class="btn waves-effect waves-light pulse" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+
+    {% block content %}
+
+    {% endblock content %}
+</div>
+</body>
+</html>
