@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99436c7-282f-42a6-86c2-18cbfba8041b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Mine.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letslaunch/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/letslaunch/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +76,17 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1586079162110" />
-    <state x="256" y="0" key="SettingsEditor" timestamp="1585970497504">
+    <state x="363" y="105" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586133399424">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="256" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585970497504" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586078979844">
+    <state x="363" y="105" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1586133399424" />
+    <state x="256" y="0" key="SettingsEditor" timestamp="1586133390169">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586078979844" />
+    <state x="256" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586133390169" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586133788433">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586133788433" />
   </component>
 </project>

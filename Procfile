@@ -1,1 +1,1 @@
-web:
+web: gunicorn letslaunch.wsgi
