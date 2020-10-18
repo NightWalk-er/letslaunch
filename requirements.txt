@@ -23,3 +23,4 @@ urllib3==1.25.8
 whitenoise==5.0.1
 win-inet-pton==1.1.0
 wincertstore==0.2
+django-comments
